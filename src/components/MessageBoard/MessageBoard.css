@@ -1,0 +1,78 @@
+/**
+ * MessageBoard.css
+ *
+ * Styles for the MessageBoard component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .message-board-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    background: #2f3943;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .message-input {
+    margin-right: 8px;
+  }
+  
+  .messages-container {
+    height: 140px;
+    font-size: 14px;
+    overflow-y: scroll;
+  }
+  
+  .chat-message {
+    padding: 5px;
+  }
+  
+  .nickname {
+    font-size: 12px;
+    font-weight: bold;
+    color: #a94b72;
+  }
+
+  .cpu-2-message .nickname{
+    color: #d76029;
+  }
+  
+  .message-row {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .user-message {
+    margin-left: 5px;
+    padding: 0 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #404553;
+  }
+  
+  /* Custom scrollbar style */
+  .messages-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .messages-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .messages-container::-webkit-scrollbar-thumb {
+    background: #161A21;
+    border-radius: 8px;
+  }
+  
+  .messages-container::-webkit-scrollbar-thumb:hover {
+    background: #1a1f28;
+  }
+
+  .btn-primary{
+    height: 40px;
+  }
+  

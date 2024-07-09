@@ -1,0 +1,67 @@
+/**
+ * App.css
+ *
+ * Global styles for the application.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ @import "bootstrap/dist/css/bootstrap.min.css";
+
+ body {
+   color: #ffffff;
+   background: #161A21;
+ }
+ 
+ .card-box {
+   background: #252A38;
+   border-radius: 8px;
+   box-shadow: 0 0 20px #0f1012;
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .card-box {
+     margin-bottom: 20px;
+   }
+ }
+ 
+ .card-title {
+   margin-bottom: 5px;
+ }
+ 
+ input {
+   width: 100%;
+   height: 40px;
+   outline: none;
+   padding: 5px 10px;
+   color: #ffffff;
+   background: #161A21;
+   border-radius: 6px;
+   border: 1px solid #323843;
+ }
+ 
+ input::placeholder {
+   color: #787878;
+ }
+ 
+ .btn-primary {
+   background: linear-gradient(45deg, #c02e64, #fc5c4a);
+   background-size: 100%;
+   transition: 400ms;
+   padding: 0 1.7em;
+   font-size: 14px;
+   font-weight: 600;
+   border: 0;
+ }
+ 
+ .btn-primary:hover {
+   background-size: 300%;
+ }
+ 
+ .btn:disabled {
+   opacity: 1;
+   color: #cacaca;
+   background: #686a6c;
+ }
+ 

@@ -1,0 +1,56 @@
+/**
+ * Leaderboard.css
+ *
+ * Styles for the Leaderboard component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .leaderboard-container {
+    overflow: hidden;
+  }
+
+  .leaderboard-table {
+    border-collapse: collapse;
+    background: #191f27;
+    color: #f2f6ff;
+    font-size: 12px;
+    width: 100%;
+    min-height: 190px;
+  }
+  
+  .leaderboard-table tr th:last-child,
+  .leaderboard-table tr td:last-child {
+    text-align: center;
+  }
+  
+  .leaderboard-table th {
+    font-size: 10px;
+    background: #161A21;
+    color: #9098a3;
+    font-weight: 500;
+  }
+  
+  .leaderboard-table td {
+    padding: 5px 0;
+  }
+  
+  .leaderboard-table tr td:first-child,
+  .leaderboard-table tr th:first-child {
+    padding-left: 20px;
+  }
+  
+  .leaderboard-table tr td:last-child,
+  .leaderboard-table tr th:last-child {
+    padding-right: 20px;
+  }
+  
+  .leaderboard-table tr:nth-child(2n) {
+    background: #222832;
+  }
+  
+  table.leaderboard-table tbody .my-result {
+    background: #3f4657;
+  }
+  

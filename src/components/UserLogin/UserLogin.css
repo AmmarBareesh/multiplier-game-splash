@@ -1,0 +1,52 @@
+/**
+ * UserLogin.css
+ *
+ * Styles for the UserLogin component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .login-container {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .login-container {
+      height: calc(100% - 15px);
+    }
+  }
+  
+  .login-title {
+    font-size: 24px;
+    width: 100%;
+    color: #9da5b5;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .login-hint {
+    width: 100%;
+    color: #808691;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .login-container .btn {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    transition: 0ms;
+    height: 40px;
+  }
+  

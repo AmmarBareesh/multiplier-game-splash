@@ -1,0 +1,25 @@
+.chart-container {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.chart-container .recharts-surface {
+  max-width: 100%;
+}
+
+.chart-result {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.chart-container .chart-result.animation-ended {
+  color: #f14e5f;
+}

@@ -1,0 +1,56 @@
+/**
+ * RoundParticipants.css
+ *
+ * Styles for the RoundParticipants component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .round-container {
+    overflow: hidden;
+  }
+  
+  .round-table {
+    border-collapse: collapse;
+    background: #191f27;
+    color: #f2f6ff;
+    font-size: 12px;
+    width: 100%;
+    min-height: 190px;
+  }
+  
+  .round-table tr th:last-child,
+  .round-table tr td:last-child {
+    text-align: center;
+  }
+  
+  .round-table th {
+    font-size: 10px;
+    background: #161A21;
+    color: #9098a3;
+    font-weight: 500;
+  }
+  
+  .round-table td {
+    padding: 5px 0;
+  }
+  
+  .round-table tr td:first-child,
+  .round-table tr th:first-child {
+    padding-left: 20px;
+  }
+  
+  .round-table tr td:last-child,
+  .round-table tr th:last-child {
+    padding-right: 20px;
+  }
+  
+  .round-table tr:nth-child(2n) {
+    background: #222832;
+  }
+  
+  table.round-table tbody .my-result {
+    background: #3f4657;
+  }
+  

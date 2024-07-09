@@ -1,0 +1,30 @@
+/**
+ * UserInfo.css
+ *
+ * Styles for the UserInfo component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .user-info-container {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #252a33;
+    background: linear-gradient(45deg, #15191e, #1f2530);
+  }
+  
+  .user-info-emoji {
+    font-size: 20px;
+  }
+  
+  .user-info-data {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  

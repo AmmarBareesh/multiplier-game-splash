@@ -1,0 +1,67 @@
+/**
+ * SpeedAdjuster.css
+ *
+ * Styles for the SpeedAdjuster component.
+ *
+ * Author: Ammar Barish
+ * Date: 2024-07-08
+ */
+
+ .speed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: #252A38;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #0f1012;
+}
+
+.speed-indicator {
+  width: 20px;
+  height: 20px;
+  background-color: #fc5c4a;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.speed-control {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 5px;
+  outline: none;
+  background: linear-gradient(to right, #0f1012 0%, #161A21 100%);
+}
+
+.speed-control::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fc5c4a;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.speed-control::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fc5c4a;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.speed-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 10px;
+  color: #9098a3;
+}
+
+.speed-values .selected {
+  color: #f14e5f;
+}
