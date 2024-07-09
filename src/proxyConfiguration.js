@@ -15,7 +15,7 @@ module.exports = function(app) {
   app.use(
     '/socket.io',
     createProxyMiddleware({
-      target: process.env.REACT_APP_SOCKET_URL || 'https://spalsh-195cf65c6b8b.herokuapp.com',
+      target: process.env.REACT_APP_SOCKET_URL || 'https://multiplier-game-splash-e9af12fa94aa.herokuapp.com/',
       changeOrigin: true,
       ws: true,
     })

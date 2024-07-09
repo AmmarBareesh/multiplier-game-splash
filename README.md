@@ -125,7 +125,7 @@ module.exports = function(app) {
   app.use(
     '/socket.io',
     createProxyMiddleware({
-      target: process.env.REACT_APP_SOCKET_URL || 'https://spalsh-195cf65c6b8b.herokuapp.com',
+      target: process.env.REACT_APP_SOCKET_URL || 'https://multiplier-game-splash-e9af12fa94aa.herokuapp.com/',
       changeOrigin: true,
       ws: true,
     })
@@ -155,7 +155,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://spalsh-195cf65c6b8b.herokuapp.com',
+    origin: 'https://multiplier-game-splash-e9af12fa94aa.herokuapp.com/',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
     credentials: true,

@@ -10,7 +10,7 @@
 import { io, Socket } from 'socket.io-client';
 
 // Initialize the WebSocket connection
-const socket: Socket = io(process.env.REACT_APP_SOCKET_URL || 'https://spalsh-195cf65c6b8b.herokuapp.com', {
+const socket: Socket = io(process.env.REACT_APP_SOCKET_URL || 'https://multiplier-game-splash-e9af12fa94aa.herokuapp.com/', {
   withCredentials: true,
 });
 

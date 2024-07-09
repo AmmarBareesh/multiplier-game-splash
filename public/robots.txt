@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://yourwebsite.com/sitemap.xml
+Sitemap: https://multiplier-game-splash-e9af12fa94aa.herokuapp.com/sitemap.xml
